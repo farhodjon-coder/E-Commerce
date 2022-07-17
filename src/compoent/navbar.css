@@ -1,0 +1,23 @@
+.navbar{
+  width: 104px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: #1F1D2B;
+  border-radius: 16px;
+}
+
+.navbar ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  text-decoration: none;
+}
+
+.navbar ul a li img{
+  text-decoration: none;
+}
+

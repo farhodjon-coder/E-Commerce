@@ -1,0 +1,135 @@
+.Home{
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    padding: 16px;
+}
+
+.Home .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.Home .header .left h1{
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-style: normal;
+    line-height: 39px;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.Home .header .left p{
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 22px;
+    font-size: 16px;
+    color: #E0E6E9;
+}
+
+.Home .header .right{
+    width: 220px;
+    height: 48px;
+    background: #2D303E;
+    border-radius: 8px;
+    border: 1px solid #393C49;
+}
+
+.Home .header .right{
+    width: 220px;
+    height: 48px;
+    background: #2D303E;
+    border-radius: 8px;
+    border: 1px solid #393C49;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.Home .header .right input{
+    width: 164px;
+    height: 20px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 20px;
+    font-size: 14px;
+    color: #ABBBC2;
+
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    background-color: rgba(134, 115, 115, 0.075);
+    gap: 28px;
+}
+
+section .header{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.product{
+    width: 192px;
+    height: 226px;
+    background: #1F1D2B;
+    border-radius: 16px;
+}
+
+section{
+    padding: 40px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.product .product_image img{
+    position: relative;
+    top: -35px;
+    left: 30px;
+}
+
+.product .product_info{
+    text-align: center;
+}
+
+.product .product_info h2{
+    width: 100%;
+    font-family: 'Barlow';
+    font-weight: 500;
+    font-style: normal;
+    line-height: 18px;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.product .product_info h3{
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 20px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.product .product_info p{
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 20px;
+    font-size: 14px;
+    color: #ABBBC2;
+    text-align: center;
+    opacity: 0.2;
+    margin-bottom: 5px;
+}

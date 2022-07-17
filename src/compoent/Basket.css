@@ -1,0 +1,82 @@
+.Basket{
+    width: 410px;
+    height: 100vh;
+    background: #1F1D2B;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.Basket h1{
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-style: normal;
+    line-height: 28px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.Basket .buttons{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 24px;
+}
+
+.Basket .buttons button{
+    width: 80px;
+    height: 34px;
+    padding: 7px 12px;
+    background: #1F1D2B;
+    height: 34px;
+    border-radius: 8px;
+    border: 1px solid #393C49;
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-style: normal;
+    line-height: 20px;
+    font-size: 14px;
+    color: #EA7C69;
+}
+
+.Basket .buttons button:hover{
+    background: #EA7C69;
+    color: white;
+}
+
+.Basket .Item-Qty-Price{
+    width: 100%;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.Basket .Item-Qty-Price .Item h2{
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-style: normal;
+    line-height: 22px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.Basket .Item-Qty-Price .Qty-Price{
+    display: flex;
+    gap: 43px;
+}
+
+.Basket .Item-Qty-Price .Qty-Price h2{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 22px;
+}
+
+.Basket hr{
+    border: 1px solid #393C49;
+}
